@@ -57,8 +57,19 @@ export const Wrapper = styled.div`
     }
 `;
 
-export const SearchInput = styled.div`
+export const SearchInput = styled.input`
+    margin-left: 12px;
+    background: var(--color-input);
+    color: var(--color-black);
+    font-size: 14px;
+    padding: 7.5px 8px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
 
+    &:focus {
+        background: var(--color-white);
+    }
 `;
 
 export const ProfileCircle = styled.img`
@@ -73,10 +84,20 @@ const iconCSS = css`
     height: 24px;
 `;
 
-export const LinkedinIcon = styled(GrLinkedin)`${iconCSS}`;
+export const LinkedinIcon = styled(GrLinkedin)`
+    width: 34px;
+    height: 34px;
+    color: var(--color-linkedin);
+    background: #fff;
+    border-radius:4px;
+    flex-shrink: 0;
+`;
 
 export const HomeIcon = styled(AiFillHome)`${iconCSS}`;
 
 export const NotificationsIcon = styled(AiOutlineBell)`${iconCSS}`;
 
-export const CareDownIcon = styled(AiFillCaretDown)`${iconCSS}`;
+export const CareDownIcon = styled(AiFillCaretDown)`
+    width: 16px;
+    height: 16px;
+`;
