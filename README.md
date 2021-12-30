@@ -1,5 +1,5 @@
 # Clone LinkedIn
-Esta projeto tem como finalidade a clonagem da interface do LinkedIn.
+Este projeto tem como finalidade a clonagem da interface do LinkedIn.
 
 
 > Status: Finalizado ⚠️
