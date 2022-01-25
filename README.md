@@ -29,7 +29,7 @@ Faça o `fork` e clone o projeto a partir do seu usuário.
 
 ```bash
 # Clonando projeto
-$ git clone https://github.com/SEU-NOME-DE-USUARIO/pokedex.git
+$ git clone https://github.com/SEU-NOME-DE-USUARIO/clone_linkedin.git
 
 # Criando um branch
 $ git branch minha-alteracao
